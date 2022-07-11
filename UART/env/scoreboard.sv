@@ -132,6 +132,7 @@ fork
             fifo_uarth[0].get(u_data1);
             u_cov_data1 = u_data1;
             uart_fcov1.sample();
+            compare();
             end
         forever 
             begin 
