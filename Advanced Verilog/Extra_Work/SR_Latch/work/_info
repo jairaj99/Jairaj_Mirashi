@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vsr
+!s110 1641530638
+!i10b 1
+!s100 h@?>RmY?h1U6l7JiE`H?m0
+I2;<LF:g2HJm[5Q<=V^];?2
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/User/OneDrive/Desktop/Sample_examples/SR_Latch
+w1641530621
+8C:/Users/User/OneDrive/Desktop/Sample_examples/SR_Latch/sr.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/SR_Latch/sr.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1641530638.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/SR_Latch/sr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/SR_Latch/sr.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vsr_tb
+!s110 1641530643
+!i10b 1
+!s100 o@HV@Pi3SU?i^ffUGcbzV2
+I8oEKJ5;E?4n5d6INURn5P0
+R0
+R1
+w1641530285
+8C:/Users/User/OneDrive/Desktop/Sample_examples/SR_Latch/sr_tb.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/SR_Latch/sr_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1641530643.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/SR_Latch/sr_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/SR_Latch/sr_tb.v|
+!i113 1
+R3
+R4
