@@ -1,0 +1,8 @@
+C:/Users/User/OneDrive/Desktop/Sample_examples/Advanced_Verilog/dual_port/dualport_ram.v {1 {vlog -work work -stats=none C:/Users/User/OneDrive/Desktop/Sample_examples/Advanced_Verilog/dual_port/dualport_ram.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dual_port_ram
+
+Top level modules:
+	dual_port_ram
+
+} {} {}}
