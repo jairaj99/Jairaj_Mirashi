@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vpattern
+Z0 !s110 1643948769
+!i10b 1
+!s100 XE^U9oKb00CAIdBkP7K2W3
+IZnigW8=gj<DLT1khoPiXC2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/User/OneDrive/Desktop/Sample_examples/Advanced_Verilog/Patterns
+w1643948762
+8C:/Users/User/OneDrive/Desktop/Sample_examples/Advanced_Verilog/Patterns/pattern.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/Advanced_Verilog/Patterns/pattern.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1643948768.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/Advanced_Verilog/Patterns/pattern.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/Advanced_Verilog/Patterns/pattern.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vpattern_tb
+R0
+!i10b 1
+!s100 SAMfSf1[[i;IAZ;z7T6=c1
+IciJUG?;N11ObmE1j4Q=863
+R1
+R2
+w1643948568
+8C:/Users/User/OneDrive/Desktop/Sample_examples/Advanced_Verilog/Patterns/pattern_tb.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/Advanced_Verilog/Patterns/pattern_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1643948769.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/Advanced_Verilog/Patterns/pattern_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/Advanced_Verilog/Patterns/pattern_tb.v|
+!i113 1
+R4
+R5
