@@ -1,0 +1,14 @@
+|vendingmachine
+reset => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+coin[0] => Equal0.IN1
+coin[0] => Equal1.IN0
+coin[0] => Equal2.IN1
+coin[0] => Equal3.IN1
+coin[1] => Equal0.IN0
+coin[1] => Equal1.IN1
+coin[1] => Equal2.IN0
+coin[1] => Equal3.IN0
+pr_en <= pr_en$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

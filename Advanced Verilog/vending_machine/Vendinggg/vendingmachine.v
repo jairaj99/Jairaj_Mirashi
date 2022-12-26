@@ -1,0 +1,117 @@
+module vendingmachine(reset,clock, coin, pr_en); 
+input reset, clock;
+input [1:0] coin; 
+output reg pr_en; 
+reg STATE00,STATE25, STATE50, STATE100 , STATE75, present_state,next_state; 
+parameter  COIN25 = 2'b00, 
+           COIN50 = 2'b01, 
+    	   COIN100= 2'b10, 
+     	   NOCOIN = 2'b11; 
+reg [2:0] count;      
+      
+always @(posedge clock) 
+      begin 
+        if(reset) 
+          begin  
+       present_state <= STATE00; 
+      // count         <=0; 
+    end 
+     else  
+           begin  
+        present_state <= next_state; 
+     end  
+  end  
+   
+always@(*) 
+       begin 
+        if(coin == NOCOIN) 
+             begin  
+            next_state <= STATE00; 
+       end 
+     if(coin == COIN25) 
+             begin  
+         next_state <= STATE25; 
+        begin 
+            if( coin == COIN25) 
+         begin  
+                next_state <= STATE50; 
+                   pr_en      <= 1'b0   ; 
+          count      <= count; 
+         end 
+         else if(coin == COIN50) 
+          begin  
+                 next_state <= STATE75; 
+           pr_en      <= 1'b0; 
+           count      <= count; 
+          end 
+         else if (coin == COIN100) 
+         begin  
+           next_state <= STATE100; 
+           pr_en      <= 1'b1; 
+           count      <= count ; 
+         end  
+            
+          else if (coin == NOCOIN && count >=5) 
+          begin  
+               next_state <= STATE00; 
+               pr_en      <= 1'b0; 
+               count      <= 1'b0; 
+          end  
+            
+           else count <=count +1'b1 ; 
+         
+        end  
+      end  
+   if(coin == COIN50) 
+                  begin  
+          next_state <= STATE50; 
+        begin  
+             if (coin == COIN50) 
+                 begin  
+                  next_state <= STATE100; 
+               pr_en       <= 1'b1; 
+               count       <= count; 
+              end  
+            
+          else if (coin == COIN25) 
+                begin  
+               next_state <= STATE75; 
+               pr_en      <= 1'b0; 
+               count      <= 1'b0; 
+           end  
+          else if (coin == COIN100) 
+                 begin  
+               next_state  <= STATE100; 
+               pr_en       <= 1'b1; 
+               count       <= 1'b0; 
+           end  
+          else if (coin == NOCOIN && count >=5) 
+                    begin  
+               next_state <= STATE00; 
+               pr_en      <= 1'b0; 
+               count      <= 1'b0; 
+           end  
+            
+             else count <=  count +1'b1 ; 
+           
+        end  
+      end  
+   if(coin == COIN100) 
+       begin  
+         next_state<= STATE100; 
+      pr_en     <= 1'b1; 
+            begin  
+              if(coin == NOCOIN  && count >=5) 
+           begin 
+             next_state <= STATE00; 
+           end  
+            
+         else count <= count +1'b1 ; 
+       end  
+        
+    end  
+     
+     
+  end  
+   
+endmodule
