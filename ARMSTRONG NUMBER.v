@@ -24,3 +24,5 @@ module arm;
     end
 endmodule
             
+
+//https://www.edaplayground.com/x/Ydad
