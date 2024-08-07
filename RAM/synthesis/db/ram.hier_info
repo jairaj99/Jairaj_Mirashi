@@ -1,0 +1,23 @@
+|ram
+we_in => always0.IN0
+we_in => data.IN0
+enable_in => data.IN1
+enable_in => always0.IN1
+addr_in[0] => mem.RADDR
+addr_in[0] => mem.WADDR
+addr_in[1] => mem.RADDR1
+addr_in[1] => mem.WADDR1
+addr_in[2] => mem.RADDR2
+addr_in[2] => mem.WADDR2
+addr_in[3] => mem.RADDR3
+addr_in[3] => mem.WADDR3
+data[0] <> data[0]
+data[1] <> data[1]
+data[2] <> data[2]
+data[3] <> data[3]
+data[4] <> data[4]
+data[5] <> data[5]
+data[6] <> data[6]
+data[7] <> data[7]
+
+
