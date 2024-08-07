@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vpr_encoder8_3
+!s110 1641567715
+!i10b 1
+!s100 L=SIl;n4HC[fdM_5<U@k20
+IXMNHFhN2nlQQV37hVTf0R0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/User/OneDrive/Desktop/Sample_examples/pr_encoder8_3/Enn
+w1641567630
+8C:/Users/User/OneDrive/Desktop/Sample_examples/pr_encoder8_3/Enn/priority8_3.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/pr_encoder8_3/Enn/priority8_3.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1641567715.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/pr_encoder8_3/Enn/priority8_3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/pr_encoder8_3/Enn/priority8_3.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vpr_encoder8_3_tb
+!s110 1641567718
+!i10b 1
+!s100 XM?5Z5D:n7;Zlc3DUYF8`3
+IWXPL=8HBGQXb[9iO^94lO1
+R0
+R1
+w1641567644
+8C:/Users/User/OneDrive/Desktop/Sample_examples/pr_encoder8_3/Enn/priority8_3_tb.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/pr_encoder8_3/Enn/priority8_3_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1641567718.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/pr_encoder8_3/Enn/priority8_3_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/pr_encoder8_3/Enn/priority8_3_tb.v|
+!i113 1
+R3
+R4
