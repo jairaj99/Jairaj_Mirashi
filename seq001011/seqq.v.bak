@@ -1,0 +1,14 @@
+//001011
+module seqq(input clk,rst,output seq);
+
+reg [4:0] q;
+
+always @ (posedge clk)
+begin
+if(rst)
+q <= 5'b11011;
+else
+q <= {q[0], q[4:1]};
+end
+assign seq =q[0];
+endmodule

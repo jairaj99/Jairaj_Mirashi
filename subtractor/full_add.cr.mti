@@ -1,0 +1,22 @@
+C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/subtractor/full_add.v {1 {vlog -work work -stats=none C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/subtractor/full_add.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_add
+
+Top level modules:
+	full_add
+
+} {} {}} C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/subtractor/full_add_tb.v {1 {vlog -work work -stats=none C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/subtractor/full_add_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_add_tb
+
+Top level modules:
+	full_add_tb
+
+} {} {}} C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/subtractor/half_sub.v {1 {vlog -work work -stats=none C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/subtractor/half_sub.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module half_sub
+
+Top level modules:
+	half_sub
+
+} {} {}}
