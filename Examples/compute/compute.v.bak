@@ -1,0 +1,19 @@
+module compute(marks, grade);
+
+input [1 : 4] marks;
+output [0 : 1] grade;
+reg [0 : 1] grade;
+
+parameter  FAIL= 1; 
+parameter PASS = 2; 
+parameter EXCELENT = 3; 
+
+always@(marks)
+begin
+if(marks < 5)
+grade = FAIL;
+
+else if((marks>5) & (marks < 10))
+grade = PASS;
+end
+endmodule

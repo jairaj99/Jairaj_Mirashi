@@ -1,0 +1,50 @@
+module updown_tb();
+
+reg clk, rst,load, control;
+reg [3 :0] data_in;
+wire [3:0] count;
+
+updown dut(clk, rst, load, data_in, control, count);
+
+parameter t=10;
+
+initial
+begin
+clk= 1'b0;
+forever #(t/2) clk = ~clk;
+end
+
+task c_in(input c, input l, input [3 :0] d);
+begin
+@(negedge clk)
+control = c;
+load=l;
+data_in = d;
+end
+endtask
+
+task reset;
+begin
+@(negedge clk)
+rst= 1'b1;
+@(negedge clk)
+rst= 1'b0;
+end
+endtask
+
+initial
+begin
+reset;
+c_in(1'b1, 1'b0,4'd1);
+reset;
+#10;
+c_in(1'b1, 1'b1,4'd3);
+end
+
+initial
+$monitor("Control =%b, Load = %b, Count = %b", control, load, count );
+
+initial
+#300 $stop;
+
+endmodule

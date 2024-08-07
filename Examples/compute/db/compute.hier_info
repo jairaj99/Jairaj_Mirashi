@@ -1,0 +1,17 @@
+|compute
+marks[4] => LessThan0.IN8
+marks[4] => LessThan1.IN8
+marks[4] => LessThan2.IN8
+marks[3] => LessThan0.IN7
+marks[3] => LessThan1.IN7
+marks[3] => LessThan2.IN7
+marks[2] => LessThan0.IN6
+marks[2] => LessThan1.IN6
+marks[2] => LessThan2.IN6
+marks[1] => LessThan0.IN5
+marks[1] => LessThan1.IN5
+marks[1] => LessThan2.IN5
+grade[1] <= grade.DB_MAX_OUTPUT_PORT_TYPE
+grade[0] <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,59 @@
+# Compile of checkop.v failed with 2 errors.
+# Compile of checkop.v failed with 1 errors.
+# Compile of checkop.v failed with 2 errors.
+# Compile of checkop.v was successful.
+vsim work.chcekop
+# vsim work.chcekop 
+# Start time: 16:31:02 on Jan 10,2022
+# Loading work.chcekop
+add wave -position insertpoint sim:/chcekop/*
+run -all
+# ** Note: $finish    : C:/Users/User/OneDrive/Desktop/Sample_examples/examples/checkop.v(17)
+#    Time: 25 ps  Iteration: 0  Instance: /chcekop
+# 1
+# Break in Module chcekop at C:/Users/User/OneDrive/Desktop/Sample_examples/examples/checkop.v line 17
+# WARNING: No extended dataflow license exists
+# Compile of checkop.v was successful.
+vsim work.chcekop
+# End time: 16:41:12 on Jan 10,2022, Elapsed time: 0:10:10
+# Errors: 0, Warnings: 1
+# vsim work.chcekop 
+# Start time: 16:41:12 on Jan 10,2022
+# Loading work.chcekop
+vsim work.chcekop
+# End time: 16:41:31 on Jan 10,2022, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 0
+# vsim work.chcekop 
+# Start time: 16:41:31 on Jan 10,2022
+# Loading work.chcekop
+add wave -position insertpoint sim:/chcekop/*
+run -all
+# ** Note: $finish    : C:/Users/User/OneDrive/Desktop/Sample_examples/examples/checkop.v(17)
+#    Time: 25 ps  Iteration: 0  Instance: /chcekop
+# 1
+# Break in Module chcekop at C:/Users/User/OneDrive/Desktop/Sample_examples/examples/checkop.v line 17
+# WARNING: No extended dataflow license exists
+# Compile of checkop.v was successful.
+vsim work.chcekop
+# End time: 16:48:29 on Jan 10,2022, Elapsed time: 0:06:58
+# Errors: 0, Warnings: 1
+# vsim work.chcekop 
+# Start time: 16:48:29 on Jan 10,2022
+# Loading work.chcekop
+add wave -position insertpoint sim:/chcekop/*
+run -all
+# Compile of checkop.v was successful.
+vsim work.chcekop
+# End time: 16:50:26 on Jan 10,2022, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 0
+# vsim work.chcekop 
+# Start time: 16:50:26 on Jan 10,2022
+# Loading work.chcekop
+add wave -position insertpoint sim:/chcekop/*
+run -all
+# ** Note: $finish    : C:/Users/User/OneDrive/Desktop/Sample_examples/examples/checkop.v(20)
+#    Time: 21 ps  Iteration: 0  Instance: /chcekop
+# 1
+# Break in Module chcekop at C:/Users/User/OneDrive/Desktop/Sample_examples/examples/checkop.v line 20
+# End time: 18:05:20 on Jan 10,2022, Elapsed time: 1:14:54
+# Errors: 0, Warnings: 0
