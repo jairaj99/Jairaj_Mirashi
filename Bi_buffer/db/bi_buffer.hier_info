@@ -1,0 +1,6 @@
+|bi_buffer
+a => b.DATAIN
+b <> b
+ctrl => b.OE
+
+

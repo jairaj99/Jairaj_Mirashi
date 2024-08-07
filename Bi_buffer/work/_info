@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vbi_buffer
+!s110 1641202339
+!i10b 1
+!s100 gjYUeahhGW8jOfZVif`iD3
+IC4_C1BMI>hk5H47f49Gco3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/User/OneDrive/Desktop/Sample_examples/Bi_buffer
+w1641201824
+8C:/Users/User/OneDrive/Desktop/Sample_examples/Bi_buffer/bi_buffer.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/Bi_buffer/bi_buffer.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1641202339.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/Bi_buffer/bi_buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/Bi_buffer/bi_buffer.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vbi_buffer_tb
+!s110 1641202521
+!i10b 1
+!s100 Min^56Z2H<7eiT^ZA8DJ]2
+IL`O8d20?M_[b]X^VO^fU91
+R0
+R1
+w1641202500
+8C:/Users/User/OneDrive/Desktop/Sample_examples/Bi_buffer/bi_buffer_tb.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/Bi_buffer/bi_buffer_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1641202521.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/Bi_buffer/bi_buffer_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/Bi_buffer/bi_buffer_tb.v|
+!i113 1
+R3
+R4
