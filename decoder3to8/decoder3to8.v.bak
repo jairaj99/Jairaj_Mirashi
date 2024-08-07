@@ -1,0 +1,20 @@
+module decoder3to8(data_in,y_out);
+
+    input [2:0] data_in;
+    output reg [7:0] y_out;
+
+    always @(Data_in)
+    case (Data_in)   
+        3'b000 : y_out = 8'b00000001;
+        3'b001 : y_out = 8'b00000010;
+        3'b010 : y_out = 8'b00000100;
+        3'b011 : y_out = 8'b00001000;
+        3'b100 : y_out = 8'b00010000;
+        3'b101 : y_out = 8'b00100000;
+        3'b110 : y_out = 8'b01000000;
+        3'b111 : y_out = 8'b10000000;
+		
+       default : y_out = 8'b00000000; 
+    endcase
+    
+endmodule
