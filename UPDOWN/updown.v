@@ -1,0 +1,14 @@
+module updown(input clk,rst,load,control, input [3:0] data_in, output reg [3 : 0] count);
+
+always@(posedge clk)
+begin
+if(rst)
+count <= 4'b0000;
+else if(load)
+count <= data_in;
+else if(control)
+count <= count + 4'b0001;
+else
+count <= count - 4'b0001;
+end
+endmodule
