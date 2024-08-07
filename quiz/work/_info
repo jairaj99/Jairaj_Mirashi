@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vquiz1
+!s110 1641278622
+!i10b 1
+!s100 dZmb:Zz2:1IzIY]dkzCH>3
+I[5A<7bd=Lg4Bj`9cEDlb33
+VDg1SIo80bB@j0V0VzS_@n1
+dC:/Users/User/OneDrive/Desktop/Sample_examples/quiz
+w1641278618
+8C:/Users/User/OneDrive/Desktop/Sample_examples/quiz/quiz1.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/quiz/quiz1.v
+L0 1
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1641278622.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/quiz/quiz1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/quiz/quiz1.v|
+!i113 1
+o-work work
+tCvgOpt 0

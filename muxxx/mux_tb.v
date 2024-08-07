@@ -1,0 +1,48 @@
+module mux_tb();
+
+reg [1:0]sel;
+reg a,b,c,d;
+wire y;
+
+mux dut(sel,a,b,c,d,y);
+
+task initilize;
+begin
+{sel,a,b,c,d} =0;
+end
+endtask
+
+task delay;
+begin
+#10;
+end
+endtask
+
+task mux_in(input [1:0] i, input j,k,l,m);
+begin
+{sel,a,b,c,d}= {i,j,k,l,m};
+#10;
+end
+endtask
+
+initial
+begin
+initilize;
+delay;
+mux_in(1'b00,1,0,0,0);
+delay;
+mux_in(1'b01,0,1,0,0);
+delay;
+mux_in(1'b10,0,0,1,0);
+delay;
+mux_in(1'b11,0,0,0,1);
+end
+
+
+initial
+$monitor("Input sel=%b, a=%b, b=%b, c=%b, d=%b output y=%b ", sel,a,b,c,d,y);
+
+initial
+#100 $stop;
+
+endmodule

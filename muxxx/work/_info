@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vmux
+!s110 1641997123
+!i10b 1
+!s100 3h:Il5Ag`Z5BT2WX=7X[m1
+IIk27F@;`h=zGK?[9nl8kl2
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/muxxx
+w1641997117
+8C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/muxxx/mux.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/muxxx/mux.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1641997123.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/muxxx/mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/muxxx/mux.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vmux_tb
+!s110 1641997307
+!i10b 1
+!s100 DTHL:b^P]a<ab[PWB_gSF1
+I;ac@3ZBUZD:?N]GOo1<Lf0
+R0
+R1
+w1641997298
+8C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/muxxx/mux_tb.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/muxxx/mux_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1641997307.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/muxxx/mux_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/muxxx/mux_tb.v|
+!i113 1
+R3
+R4

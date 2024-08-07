@@ -1,0 +1,18 @@
+C:/Users/User/OneDrive/Desktop/Sample_examples/Major/ultrasonic.v {1 {vlog -work work -stats=none C:/Users/User/OneDrive/Desktop/Sample_examples/Major/ultrasonic.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ultrasonic
+
+Top level modules:
+	ultrasonic
+
+} {} {}} C:/Users/User/OneDrive/Desktop/Sample_examples/Major/ultrasonic_tb.v {0 {vlog -work work -stats=none C:/Users/User/OneDrive/Desktop/Sample_examples/Major/ultrasonic_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ultrasonic_tb
+** Error: C:/Users/User/OneDrive/Desktop/Sample_examples/Major/ultrasonic_tb.v(15): 'For' statement found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
+** Error: C:/Users/User/OneDrive/Desktop/Sample_examples/Major/ultrasonic_tb.v(1): Identifier must be declared with a port mode: i.
+** Error: C:/Users/User/OneDrive/Desktop/Sample_examples/Major/ultrasonic_tb.v(1): Identifier must be declared with a port mode: buzzer.
+** Error: C:/Users/User/OneDrive/Desktop/Sample_examples/Major/ultrasonic_tb.v(1): Identifier must be declared with a port mode: led.
+** Error: C:/Users/User/OneDrive/Desktop/Sample_examples/Major/ultrasonic_tb.v(1): Identifier must be declared with a port mode: motor.
+** Error: C:/Users/User/OneDrive/Desktop/Sample_examples/Major/ultrasonic_tb.v(1): Identifier must be declared with a port mode: level.
+
+} {4.0 10.0} {}}
