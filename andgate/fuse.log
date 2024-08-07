@@ -1,0 +1,17 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/User/OneDrive/Desktop/New folder/andgate/andgate_isim_beh.exe -prj C:/Users/User/OneDrive/Desktop/New folder/andgate/andgate_beh.prj work.andgate work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/User/OneDrive/Desktop/New folder/andgate/andgate.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module andgate
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 2 Verilog Units
+Built simulation executable C:/Users/User/OneDrive/Desktop/New folder/andgate/andgate_isim_beh.exe
+Fuse Memory Usage: 27528 KB
+Fuse CPU Usage: 358 ms

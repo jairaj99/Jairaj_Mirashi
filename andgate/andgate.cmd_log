@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/User/OneDrive/Desktop/New folder/andgate/andgate.xst" -ofn "C:/Users/User/OneDrive/Desktop/New folder/andgate/andgate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200a-vq100-5 "andgate.ngc" andgate.ngd  
+map -intstyle ise -p xc3s200a-vq100-5 -cm area -ir off -pr off -c 100 -o andgate_map.ncd andgate.ngd andgate.pcf 
+par -w -intstyle ise -ol high -t 1 andgate_map.ncd andgate.ncd andgate.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml andgate.twx andgate.ncd -o andgate.twr andgate.pcf 
