@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vmux4_1
+!s110 1641105988
+!i10b 1
+!s100 3eXNY]lUOEfDHdXGDZe8e3
+I6S6T>:HlFH_RS[=T>Jakj1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/User/OneDrive/Desktop/Sample_examples/mux4to1
+w1640873617
+8C:/Users/User/OneDrive/Desktop/Sample_examples/mux4to1/mux4_1.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/mux4to1/mux4_1.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1641105988.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/mux4to1/mux4_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/mux4to1/mux4_1.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vmux4_1_tb
+!s110 1641106079
+!i10b 1
+!s100 S20J]5bF136Hl2;aXH<Uj1
+I>j>GO;EQJC<iL>fU]d^Ag3
+R0
+R1
+w1641106068
+8C:/Users/User/OneDrive/Desktop/Sample_examples/mux4to1/mux4_1_tb.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/mux4to1/mux4_1_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1641106079.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/mux4to1/mux4_1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/mux4to1/mux4_1_tb.v|
+!i113 1
+R3
+R4
+vmux4to1
+!s110 1641105917
+!i10b 1
+!s100 2zzZP_h]1`@=7IIZMRXjA2
+IYmacb9HbROL_9RX63DY]Q0
+R0
+R1
+w1640789559
+8C:/Users/User/OneDrive/Desktop/Sample_examples/mux4to1/mux4to1.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/mux4to1/mux4to1.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1641105917.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/mux4to1/mux4to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/mux4to1/mux4to1.v|
+!i113 1
+R3
+R4
+vmux4to1_tb
+!s110 1641105921
+!i10b 1
+!s100 gce303JcMO8L;zNVb=QcD3
+Ilc9?LC3lJf;6dGibgBlYc1
+R0
+R1
+w1640837216
+8C:/Users/User/OneDrive/Desktop/Sample_examples/mux4to1/mux4to1_tb.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/mux4to1/mux4to1_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1641105921.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/mux4to1/mux4to1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/mux4to1/mux4to1_tb.v|
+!i113 1
+R3
+R4

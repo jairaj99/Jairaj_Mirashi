@@ -1,0 +1,35 @@
+module mux4to1_tb();
+
+reg i0,i1,i2,i3,S1,S2;
+wire Y;
+
+integer i;
+
+mux4to1 DUT(i0,i1,i2,i3,S1,S2, Y);
+
+initial
+begin
+i0= 1'b0;
+i1= 1'b0;
+i2= 1'b0;
+i3=1'b0;
+S1=1'b0;
+S2=1'b0;
+end
+
+initial
+begin
+for(i=0; i<32; i=i+1)
+begin
+{S1,S2,i3,i2,i1,i0}=i;
+#10;
+end
+end
+
+initial
+$monitor("Inputs I0=%b, I1=%b,I2=%b, I3=%b, S1=%b, S2=%b, Output Y=%b", i0,i1,i2,i3,S1,S2, Y);
+
+initial
+#100 $finish;
+
+endmodule
