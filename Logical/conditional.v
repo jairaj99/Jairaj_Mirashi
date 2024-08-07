@@ -1,0 +1,16 @@
+module condition();
+
+reg [3 : 0] a,b,c,y,z;
+
+initial
+begin
+a = 4'b1010;
+b = 4'b0010;
+c = 4'b1110;
+
+y = (&c) ? a: b;
+z = c ? a : b;
+
+$display(" Y = %b, Z = %b", y,z);
+end
+endmodule

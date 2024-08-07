@@ -1,0 +1,24 @@
+module bitwise_op();
+
+reg [3 : 0] a,b,c;
+reg  [3:0] x,y,z,w,s,r,p;
+
+initial 
+begin
+
+a=5;
+b=3'b111;
+c='bx;
+
+x= a & b;
+y= a & 3'b1;
+z= b | a;
+w= a | 3'b1;
+s= a ^ b;
+r= ~(a & b);
+p= a ^~ b;
+
+$display(" X=%b, Y=%b, Z=%b, w=%b, s=%b, r=%b, p=%b ", x,y,z,w,s,r,p);
+
+end
+endmodule

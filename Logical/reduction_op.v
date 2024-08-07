@@ -1,0 +1,22 @@
+module reduction_op();
+
+reg [3 : 0] a,b;
+reg   x,y,z,w,s,r,p;
+
+initial 
+begin
+
+a=4'b0110;
+b=4'b1000;
+
+x= ~&b;
+y= ^a;
+z= | b;
+w= ^~a;
+s= ~|b;
+r= &a;
+
+$display(" X=%b, Y=%b, Z=%b, w=%b, s=%b, r=%b ", x,y,z,w,s,r);
+
+end
+endmodule

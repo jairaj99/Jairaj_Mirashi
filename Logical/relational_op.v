@@ -1,0 +1,27 @@
+module relational_op();
+
+reg a,b,w,s,r,q,p,t,u;
+reg [3:0]  x,y,z,d,e;
+
+initial 
+begin
+a=4;
+b=3;
+x=4'b1000;
+y=4'b1100;
+z=4'b1x1x;
+d=4'b1x0z;
+e=4'b1x0z;
+
+w= a<b;
+s= a>b;
+r= x >= y;
+p= x <= y;
+q= x >= z;
+
+t=(d == b);    //equality_operator
+u= d != b;
+$display(" w=%b, s=%b, r=%b, p=%b, q=%b, t=%b, u=%b ",w,s,r,p,q,t,u);
+
+end
+endmodule

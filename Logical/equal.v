@@ -1,0 +1,17 @@
+module equal();
+
+reg [3  : 0] a,b;
+reg x,y,w,v;
+
+initial
+begin
+a = 4'b1x0z;
+b = 4'b1x0z;
+
+x= (a == b);
+y= (a != b);
+w= (a === b);
+v= (a !== b);
+$display("X = %b, Y = %b, W = %b, V = %b ",x,y,w,v);
+end
+endmodule
