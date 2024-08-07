@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vclocked_buff
+!s110 1641968732
+!i10b 1
+!s100 >KJ>]EIHn1RWdK_;KAKS?3
+I;9Lbm^OSO16Nkm0<1VFLg2
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/clk_buffer
+w1641968506
+8C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/clk_buffer/clocked_buff.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/clk_buffer/clocked_buff.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1641968732.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/clk_buffer/clocked_buff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/clk_buffer/clocked_buff.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vclocked_buff_tb
+!s110 1641968737
+!i10b 1
+!s100 ^ii>4N?FiZmD]6d0_Y[h_0
+I7A?gMF48QhhRiLjV3gHDm2
+R0
+R1
+w1641968540
+8C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/clk_buffer/clocked_buff_tb.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/clk_buffer/clocked_buff_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1641968737.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/clk_buffer/clocked_buff_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/clk_buffer/clocked_buff_tb.v|
+!i113 1
+R3
+R4

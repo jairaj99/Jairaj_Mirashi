@@ -1,0 +1,15 @@
+C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/clk_buffer/clocked_buff.v {1 {vlog -work work -stats=none C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/clk_buffer/clocked_buff.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clocked_buff
+
+Top level modules:
+	clocked_buff
+
+} {} {}} C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/clk_buffer/clocked_buff_tb.v {1 {vlog -work work -stats=none C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/clk_buffer/clocked_buff_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clocked_buff_tb
+
+Top level modules:
+	clocked_buff_tb
+
+} {} {}}
