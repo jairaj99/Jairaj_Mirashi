@@ -1,0 +1,9 @@
+Analysis & Synthesis Status : Successful - Tue Dec 28 20:10:47 2021
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : half_adder
+Top-level Entity Name : half_adder
+Family : MAX V
+Total logic elements : 2
+Total pins : 4
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vhalf_adder
+!s110 1640702104
+!i10b 1
+!s100 7QK>F49624ZR6>bHXMcRZ0
+I;2HhEAjL>ZgzJ8MVL3oQ83
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/User/OneDrive/Desktop/Sample_examples/half
+w1592478586
+8C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/rtl/half_adder.v
+FC:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/rtl/half_adder.v
+L0 24
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1640702104.000000
+!s107 C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/rtl/half_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/rtl/half_adder.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vhalf_adder_tb
+!s110 1640702151
+!i10b 1
+!s100 S`_hinZj;<VGcn@G6ZLH00
+IQYN4J6cz46m7jHFV`O4M>2
+R0
+R1
+w1640702145
+8C:/Users/User/OneDrive/Desktop/Sample_examples/half/half_adder_tb.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/half/half_adder_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1640702151.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/half/half_adder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/half/half_adder_tb.v|
+!i113 1
+R3
+R4
