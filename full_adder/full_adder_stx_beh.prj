@@ -1,0 +1,3 @@
+verilog isim_temp "../../Verilog_Lab/BRN19/Verilog_labs/lab1/rtl/half_adder.v"
+verilog isim_temp "../../Verilog_Lab/BRN19/Verilog_labs/lab1/rtl/full_adder.v"
+verilog isim_temp "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v"

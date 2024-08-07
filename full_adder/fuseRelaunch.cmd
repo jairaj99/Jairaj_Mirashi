@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/User/OneDrive/Desktop/Sample_examples/full_adder/mux2to1_isim_beh.exe" -prj "C:/Users/User/OneDrive/Desktop/Sample_examples/full_adder/mux2to1_beh.prj" "work.mux2to1" "work.glbl" 
