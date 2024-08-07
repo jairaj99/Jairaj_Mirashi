@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vdisp
+!s110 1641214768
+!i10b 1
+!s100 0K9JWj8OLc`]D0Mnn>1JE3
+IPLWdRJjhBlnS^OIXeGWX=3
+VDg1SIo80bB@j0V0VzS_@n1
+dC:/Users/User/OneDrive/Desktop/Sample_examples/compiler_Ex
+w1641214763
+8C:/Users/User/OneDrive/Desktop/Sample_examples/compiler_Ex/disp.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/compiler_Ex/disp.v
+L0 1
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1641214768.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/compiler_Ex/disp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/compiler_Ex/disp.v|
+!i113 1
+o-work work
+tCvgOpt 0

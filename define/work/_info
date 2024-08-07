@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vclk_gen
+!s110 1641304357
+!i10b 1
+!s100 dWi5;=7:^cHj2;]iJGQ1P1
+I8WZAmdM^L13[<LRc<khU:0
+VDg1SIo80bB@j0V0VzS_@n1
+dC:/Users/User/OneDrive/Desktop/Sample_examples/define
+w1641304355
+8C:/Users/User/OneDrive/Desktop/Sample_examples/define/clk_gen.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/define/clk_gen.v
+L0 2
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1641304357.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/define/clk_gen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/define/clk_gen.v|
+!i113 1
+o-work work
+tCvgOpt 0
