@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vsync
+!s110 1643028699
+!i10b 1
+!s100 l0@MC::87BH9Z=CRgJJaM1
+IK@bKiVYS^UzeLeo;emEBF0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/User/OneDrive/Desktop/Sample_examples/Router_Project/Project/Sync
+w1642783128
+8C:/Users/User/OneDrive/Desktop/Sample_examples/Router_Project/Project/Sync/synch.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/Router_Project/Project/Sync/synch.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1643028699.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/Router_Project/Project/Sync/synch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/Router_Project/Project/Sync/synch.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vsync_tb
+!s110 1643028957
+!i10b 1
+!s100 ?4X>D@@ZzJIeXWOeVN:nj1
+ITS8>KXB^d0LCS_:^T`URb1
+R0
+R1
+w1643028952
+8C:/Users/User/OneDrive/Desktop/Sample_examples/Router_Project/Project/Sync/sync_tb.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/Router_Project/Project/Sync/sync_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1643028957.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/Router_Project/Project/Sync/sync_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/Router_Project/Project/Sync/sync_tb.v|
+!i113 1
+R3
+R4

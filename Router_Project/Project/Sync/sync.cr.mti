@@ -1,0 +1,18 @@
+C:/Users/User/OneDrive/Desktop/Sample_examples/Router_Project/Project/Sync/sync_tb.v {2 {vlog -work work -stats=none C:/Users/User/OneDrive/Desktop/Sample_examples/Router_Project/Project/Sync/sync_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sync_tb
+** Warning: C:/Users/User/OneDrive/Desktop/Sample_examples/Router_Project/Project/Sync/sync_tb.v(53): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/User/OneDrive/Desktop/Sample_examples/Router_Project/Project/Sync/sync_tb.v(62): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/User/OneDrive/Desktop/Sample_examples/Router_Project/Project/Sync/sync_tb.v(70): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	sync_tb
+
+} {} {}} C:/Users/User/OneDrive/Desktop/Sample_examples/Router_Project/Project/Sync/synch.v {1 {vlog -work work -stats=none C:/Users/User/OneDrive/Desktop/Sample_examples/Router_Project/Project/Sync/synch.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sync
+
+Top level modules:
+	sync
+
+} {} {}}

@@ -1,0 +1,29 @@
+module router(input pkt_valid,clk,rst,
+			  input [7:0]din,
+			  input [2:0]rd_en,
+			  output [7:0]dout0,dout1,dout2,
+			  output [2:0]vld_out,//vld_out[0],vld_out[1],vld_out[2]
+			  output err,busy);
+
+//vld_out_0,vld_out_0,vld_out_0
+//wire fifo_full,prty_dn,lw_pkt_valid,wr_en_reg,dt_add,ld_state,lfd_state,laf_state,full_state;
+//wire [2:0] empty,sft_rst,full,we;
+//wire rst_int_reg;
+//wire [7:0]dout;
+
+fsm a1(clk,rst,pkt_valid,fifo_full,prty_dn,lw_pkt_valid,empty,sft_rst,din[1:0],write_en_reg,dt_add,
+ld_state,lfd_state,laf_state,full_state,rst_int_reg,busy);
+
+sync a2(clk,rst,dt_add,write_en_reg,full,empty,rd_en,din[1:0],sft_rst,we,vld_out,fifo_full);
+
+register a3(clk,rst,pkt_valid,fifo_full,dt_add,ld_state,lfd_state,laf_state,full_state,rst_int_reg,din,dout,
+err,prty_dn,lw_pkt_valid);
+
+//input clock,resetn,soft_reset,write_enb,read_enb,lfd_state, input[7:0] data_in, output full,empty, output reg[7:0] data_out
+fifo a4(clk,rst,sft_rst[0],we[0],rd_en[0],lfd_state,dout,full[0],empty[0],dout0);
+fifo a5(clk,rst,sft_rst[1],we[1],rd_en[1],lfd_state,dout,full[1],empty[1],dout1);
+fifo a6(clk,rst,sft_rst[2],we[2],rd_en[2],lfd_state,dout,full[2],empty[2],dout2);
+endmodule
+/*
+fsm a1(.clock(clk),.wr_en_reg(write_en_reg)
+sync a2(.wr_en_reg(write_en_reg),.......);*/
