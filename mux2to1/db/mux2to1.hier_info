@@ -1,0 +1,8 @@
+|mux2to1
+D0 => Y.IN0
+D1 => Y.IN0
+S => Y.IN1
+S => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

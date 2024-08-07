@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vmux2to1
+!s110 1641105813
+!i10b 1
+!s100 h=D2[]mH2J[jcOX=;<HoI0
+IJoh:0Ic]FD0O4?_Qe>f9E2
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/User/OneDrive/Desktop/Sample_examples/mux2to1
+w1641046721
+8C:/Users/User/OneDrive/Desktop/Sample_examples/mux2to1/mux2to1.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/mux2to1/mux2to1.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z3 !s108 1641105812.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/mux2to1/mux2to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/mux2to1/mux2to1.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vmux2to1_tb
+!s110 1641105812
+!i10b 1
+!s100 iM8DFF_6[i@MRCdSAPcnG0
+IY^i]YiI_BCGa0WNT0TlC22
+R0
+R1
+w1640788158
+8C:/Users/User/OneDrive/Desktop/Sample_examples/mux2to1/mux2to1_tb.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/mux2to1/mux2to1_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/mux2to1/mux2to1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/mux2to1/mux2to1_tb.v|
+!i113 1
+R4
+R5
+vmux4to1_tb
+!s110 1640787327
+!i10b 1
+!s100 j5Kd=KoZnfI^gmm4`N:l:2
+Ik0hES=3Vl;:Kj3_:akjkD1
+R0
+R1
+w1640787323
+8C:\Users\User\OneDrive\Desktop\Sample_examples\mux2to1\mux2to1_tb.v
+FC:\Users\User\OneDrive\Desktop\Sample_examples\mux2to1\mux2to1_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1640787327.000000
+!s107 C:\Users\User\OneDrive\Desktop\Sample_examples\mux2to1\mux2to1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\User\OneDrive\Desktop\Sample_examples\mux2to1\mux2to1_tb.v|
+!i113 1
+R4
+R5
