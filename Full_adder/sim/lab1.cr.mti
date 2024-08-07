@@ -1,0 +1,22 @@
+E:/FiLe's/Maven_Silicon/Verilog_Lab/baaabbed5733ac7c8136dc5d27f84618/Verilog_labs/lab1/rtl/full_adder.v {0 {vlog -work work -stats=none E:/FiLe's/Maven_Silicon/Verilog_Lab/baaabbed5733ac7c8136dc5d27f84618/Verilog_labs/lab1/rtl/full_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_adder
+** Error: E:/FiLe's/Maven_Silicon/Verilog_Lab/baaabbed5733ac7c8136dc5d27f84618/Verilog_labs/lab1/rtl/full_adder.v(24): (vlog-2730) Undefined variable: 'a_in'.
+** Error: E:/FiLe's/Maven_Silicon/Verilog_Lab/baaabbed5733ac7c8136dc5d27f84618/Verilog_labs/lab1/rtl/full_adder.v(24): Identifier must be declared with a port mode: a_in.
+** Error: E:/FiLe's/Maven_Silicon/Verilog_Lab/baaabbed5733ac7c8136dc5d27f84618/Verilog_labs/lab1/rtl/full_adder.v(25): (vlog-2730) Undefined variable: 'b_in'.
+** Error: E:/FiLe's/Maven_Silicon/Verilog_Lab/baaabbed5733ac7c8136dc5d27f84618/Verilog_labs/lab1/rtl/full_adder.v(25): Identifier must be declared with a port mode: b_in.
+** Error: E:/FiLe's/Maven_Silicon/Verilog_Lab/baaabbed5733ac7c8136dc5d27f84618/Verilog_labs/lab1/rtl/full_adder.v(26): (vlog-2730) Undefined variable: 'c_in'.
+** Error: E:/FiLe's/Maven_Silicon/Verilog_Lab/baaabbed5733ac7c8136dc5d27f84618/Verilog_labs/lab1/rtl/full_adder.v(26): Identifier must be declared with a port mode: c_in.
+** Error: E:/FiLe's/Maven_Silicon/Verilog_Lab/baaabbed5733ac7c8136dc5d27f84618/Verilog_labs/lab1/rtl/full_adder.v(27): (vlog-2730) Undefined variable: 'sum_out'.
+** Error: E:/FiLe's/Maven_Silicon/Verilog_Lab/baaabbed5733ac7c8136dc5d27f84618/Verilog_labs/lab1/rtl/full_adder.v(27): Identifier must be declared with a port mode: sum_out.
+** Error: E:/FiLe's/Maven_Silicon/Verilog_Lab/baaabbed5733ac7c8136dc5d27f84618/Verilog_labs/lab1/rtl/full_adder.v(28): (vlog-2730) Undefined variable: 'carry_out'.
+** Error: E:/FiLe's/Maven_Silicon/Verilog_Lab/baaabbed5733ac7c8136dc5d27f84618/Verilog_labs/lab1/rtl/full_adder.v(28): Identifier must be declared with a port mode: carry_out.
+
+} {4.0 14.0} {}} E:/FiLe's/Maven_Silicon/Verilog_Lab/baaabbed5733ac7c8136dc5d27f84618/Verilog_labs/lab1/tb/full_adder_tb.v {1 {vlog -work work -stats=none E:/FiLe's/Maven_Silicon/Verilog_Lab/baaabbed5733ac7c8136dc5d27f84618/Verilog_labs/lab1/tb/full_adder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_adder_tb
+
+Top level modules:
+	full_adder_tb
+
+} {} {}}

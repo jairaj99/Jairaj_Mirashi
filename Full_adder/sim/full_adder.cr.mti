@@ -1,0 +1,22 @@
+C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/rtl/full_adder.v {1 {vlog -work work -stats=none C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/rtl/full_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/rtl/half_adder.v {1 {vlog -work work -stats=none C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/rtl/half_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module half_adder
+
+Top level modules:
+	half_adder
+
+} {} {}} C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/tb/full_adder_tb.v {1 {vlog -work work -stats=none C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/tb/full_adder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_adder_tb
+
+Top level modules:
+	full_adder_tb
+
+} {} {}}

@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vfull_adder
+Z0 !s110 1640694789
+!i10b 1
+!s100 ]@Qm9DiE8?6JfoOkYDDzK3
+I@^S]RaGK12H?Gc];Uc4kU2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/sim
+w1640694586
+8C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/rtl/full_adder.v
+FC:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/rtl/full_adder.v
+Z3 L0 24
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1640694789.000000
+!s107 C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/rtl/full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/rtl/full_adder.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vfull_adder_tb
+!s110 1640696059
+!i10b 1
+!s100 i_f94`:UM:W@h9<UenJ911
+IiSN:nbof=O?O3]WD=83=?3
+R1
+R2
+w1640696047
+8C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/tb/full_adder_tb.v
+FC:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/tb/full_adder_tb.v
+R3
+R4
+r1
+!s85 0
+31
+!s108 1640696059.000000
+!s107 C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/tb/full_adder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/tb/full_adder_tb.v|
+!i113 1
+R6
+R7
+vhalf_adder
+R0
+!i10b 1
+!s100 7QK>F49624ZR6>bHXMcRZ0
+I;2HhEAjL>ZgzJ8MVL3oQ83
+R1
+R2
+w1592478586
+8C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/rtl/half_adder.v
+FC:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/rtl/half_adder.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/rtl/half_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab1/rtl/half_adder.v|
+!i113 1
+R6
+R7
