@@ -1,0 +1,15 @@
+C:/Users/User/OneDrive/Desktop/Sample_examples/mux2to1/mux2to1.v {1 {vlog -work work -stats=none C:/Users/User/OneDrive/Desktop/Sample_examples/mux2to1/mux2to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2to1
+
+Top level modules:
+	mux2to1
+
+} {} {}} C:/Users/User/OneDrive/Desktop/Sample_examples/m4_1/m4_1.v {1 {vlog -work work -stats=none C:/Users/User/OneDrive/Desktop/Sample_examples/m4_1/m4_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module m4_1
+
+Top level modules:
+	m4_1
+
+} {} {}}

@@ -1,0 +1,32 @@
+module m4_1_tb();
+
+reg [3:0] I;
+reg [1:0] S;
+wire Y;
+
+integer i;
+
+m4_1 DUT (.I(I), .S(S), .Y(Y));
+
+initial
+begin
+S=2'b00;
+I=4'b0000;
+end
+initial 
+begin
+for(i=0;i<16;i=i+1)
+begin
+S=i;
+I=i;
+#10;
+end
+end
+
+initial
+$monitor("Inputs I[0]=%b,I[1]=%b,I[2]=%b,I[3]=%b S[1]=%b,S[0]=%b, Output Y=%b", I[0],I[1], I[2],I[3],S[1],S[0], Y);
+initial
+#100 $finish;
+
+endmodule
+
