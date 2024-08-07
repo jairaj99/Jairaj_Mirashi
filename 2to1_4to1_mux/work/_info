@@ -1,0 +1,66 @@
+m255
+K4
+z0
+vmux2to1
+!s110 1641187497
+!i10b 1
+!s100 QQAS^dBLE?o?>Y5k=nocX1
+I0H[Xl7Pda7g:HDFMVJlI=3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/User/OneDrive/Desktop/Sample_examples/2to1_4to1_mux
+w1641127516
+8C:/Users/User/OneDrive/Desktop/Sample_examples/2to1_4to1_mux/mux2to1.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/2to1_4to1_mux/mux2to1.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z3 !s108 1641187497.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/2to1_4to1_mux/mux2to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/2to1_4to1_mux/mux2to1.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vmux4to1
+!s110 1641187498
+!i10b 1
+!s100 VTI5fIceV@g7@^E`XA01R2
+I9<e2g3c1gWSZR9^27QjZT0
+R0
+R1
+w1641128559
+8C:/Users/User/OneDrive/Desktop/Sample_examples/2to1_4to1_mux/mux4to1.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/2to1_4to1_mux/mux4to1.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/2to1_4to1_mux/mux4to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/2to1_4to1_mux/mux4to1.v|
+!i113 1
+R4
+R5
+vmux4to1_tb
+!s110 1641187502
+!i10b 1
+!s100 z01B_b<5JS=<YYnF?3Zd61
+Ia4O7V]TJJZ`7@id56M^zN1
+R0
+R1
+w1641187417
+8C:/Users/User/OneDrive/Desktop/Sample_examples/2to1_4to1_mux/mux4to1_tb.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/2to1_4to1_mux/mux4to1_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1641187502.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/2to1_4to1_mux/mux4to1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/2to1_4to1_mux/mux4to1_tb.v|
+!i113 1
+R4
+R5

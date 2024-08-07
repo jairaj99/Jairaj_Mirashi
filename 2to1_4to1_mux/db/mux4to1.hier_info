@@ -1,0 +1,34 @@
+|mux4to1
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN1
+out <= mux2to1:m3.port3
+
+
+|mux4to1|mux2to1:m1
+a => comb.DATAIN
+b => comb.DATAIN
+sel => comb.OE
+sel => comb.OE
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4to1|mux2to1:m2
+a => comb.DATAIN
+b => comb.DATAIN
+sel => comb.OE
+sel => comb.OE
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4to1|mux2to1:m3
+a => comb.DATAIN
+b => comb.DATAIN
+sel => comb.OE
+sel => comb.OE
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
