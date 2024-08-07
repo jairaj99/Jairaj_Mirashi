@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vmux4_1
+!s110 1641231064
+!i10b 1
+!s100 [@ML5S?K`A[R]ae8:HJ?D1
+Ik<]]R_T6hJ=1AATbPB9dH0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab3/sim
+w1641228810
+8C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab3/rtl/mux4_1.v
+FC:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab3/rtl/mux4_1.v
+Z2 L0 24
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1641231063.000000
+!s107 C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab3/rtl/mux4_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab3/rtl/mux4_1.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vmux4_1_tb
+!s110 1641231128
+!i10b 1
+!s100 AYi@jFzEU]oGFnEm>db8I0
+IZllb0Dmda6;T?8Hc;=_Za3
+R0
+R1
+w1641231124
+8C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab3/tb/mux4_1_tb.v
+FC:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab3/tb/mux4_1_tb.v
+R2
+R3
+r1
+!s85 0
+31
+!s108 1641231128.000000
+!s107 C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab3/tb/mux4_1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab3/tb/mux4_1_tb.v|
+!i113 1
+R4
+R5
