@@ -1,0 +1,9 @@
+Analysis & Synthesis Status : Successful - Mon Jan 17 16:37:13 2022
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : fifo
+Top-level Entity Name : fifo
+Family : MAX V
+Total logic elements : 266
+Total pins : 22
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

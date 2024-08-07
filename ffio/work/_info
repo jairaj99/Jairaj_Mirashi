@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vfifo
+!s110 1642416859
+!i10b 1
+!s100 C1ChRMZ2SnfGFVG^I6]U71
+I7P6R4PS@Ql>5W;l2ZOXo31
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/ffio
+w1642416780
+8C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/ffio/fifo.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/ffio/fifo.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1642416859.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/ffio/fifo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/ffio/fifo.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vfifo_tb
+!s110 1642416909
+!i10b 1
+!s100 ^Mz`:^4zGe3hWfQ@YP`[X3
+Ik9hU?]zG@No8SdGf4hUmN0
+R0
+R1
+w1642416901
+8C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/ffio/fifo_tb.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/ffio/fifo_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1642416909.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/ffio/fifo_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/ffio/fifo_tb.v|
+!i113 1
+R3
+R4
