@@ -1,0 +1,59 @@
+module FIFO_DESIGN_TB(); 
+reg clk,rst,wr_en,rd_en; 
+reg [7:0] in; 
+wire [7:0] out; 
+parameter T=10; 
+integer o=0; 
+FIFO_DESIGN DUT(clk,rst,in,out ,wr_en,rd_en); 
+ 
+// Initialize the enable  
+task intialize; 
+begin 
+wr_en=0; 
+rd_en=0; 
+end 
+endtask 
+// generating clock  
+initial  
+     begin 
+  forever #T clk= ~clk; 
+  end  
+ 
+//reset for 1 clock cycle  
+task reset ; 
+begin @(negedge clk) 
+rst = 1'b1; 
+@(negedge clk) 
+rst = 1'b0; 
+ 
+end 
+endtask 
+ 
+// inputs  
+task inputt(input [7:0] i, input wr); 
+begin 
+in = i; 
+wr_en=wr; 
+//rd_en=rd; 
+end 
+endtask 
+ 
+ 
+task delay; 
+begin  
+#30; 
+end 
+endtask 
+ 
+initial  
+     begin  
+  intialize; 
+  reset; 
+  delay;  
+   for (o=0;o<16;o=o+1) 
+   begin  
+   inputt(o,1'b1); 
+   end 
+   rd_en=1; 
+end  
+endmodule

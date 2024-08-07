@@ -1,0 +1,69 @@
+module fifo_tb(); 
+reg clk,rst,wr_en,rd_en; 
+reg [7:0] in; 
+wire [7:0] out; 
+wire empty,full; 
+parameter T=10; 
+integer o=0; 
+fifo DUT(clk,rst,in,out ,wr_en,rd_en,empty,full); 
+ 
+// Initialize the enable  
+task intialize; 
+begin 
+wr_en=0; 
+rd_en=0; 
+end 
+endtask 
+// generating clock  
+initial  
+     begin 
+  clk = 1'b0; 
+  forever #T clk= ~clk; 
+  end  
+ 
+//reset for 1 clock cycle  
+task reset ; 
+begin @(negedge clk) 
+rst = 1'b1; 
+@(negedge clk) 
+rst = 1'b0; 
+ 
+end 
+endtask 
+ 
+// inputs  
+task inputt(input [7:0] i, input wr); 
+begin @(negedge clk) 
+in = i; 
+wr_en=wr; 
+//rd_en=rd; 
+end 
+endtask 
+task readd (input f); 
+begin@(negedge clk) 
+#25; 
+rd_en=f; 
+end 
+endtask  
+ 
+ 
+task delay; 
+begin  
+#30; 
+end 
+endtask 
+ 
+initial  
+     begin  
+  intialize; 
+  reset; 
+  delay;  
+    
+   for (o=0;o<16;o=o+1) 
+   inputt(o,1'b1);
+delay; 
+    readd(1'b1);
+#500 $finish;
+  
+   end  
+endmodule
