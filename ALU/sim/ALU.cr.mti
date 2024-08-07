@@ -1,0 +1,15 @@
+C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab2/rtl/alu.v {1 {vlog -work work -stats=none C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab2/rtl/alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab2/tb/alu_tb.v {1 {vlog -work work -stats=none C:/Users/User/OneDrive/Desktop/Verilog_Lab/BRN19/Verilog_labs/lab2/tb/alu_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alu_tb
+
+Top level modules:
+	alu_tb
+
+} {} {}}
