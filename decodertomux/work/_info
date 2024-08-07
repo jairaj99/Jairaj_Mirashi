@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vdecoder2_4
+!s110 1641182152
+!i10b 1
+!s100 <8<C]K5A6V2Z9h]<fC=V80
+IO1X]9H4oFkDH;nYPd[kZE3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/User/OneDrive/Desktop/Sample_examples/decodertomux
+w1640943745
+8C:/Users/User/OneDrive/Desktop/Sample_examples/decodertomux/dec2to4.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/decodertomux/dec2to4.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1641182152.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/decodertomux/dec2to4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/decodertomux/dec2to4.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vdecoder2to4
+!s110 1640941076
+!i10b 1
+!s100 nz;nYLMAPVT5S4bOIMbI83
+I`ZX5PQBU[mJEao`M5G84j3
+R0
+R1
+w1640872377
+8C:/Users/User/OneDrive/Desktop/Sample_examples/decoder/decoder2to4.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/decoder/decoder2to4.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1640941076.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/decoder/decoder2to4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/decoder/decoder2to4.v|
+!i113 1
+R3
+R4
+vdectomux
+!s110 1641182157
+!i10b 1
+!s100 EKeH=F:=XB0[]5Bac@@IX1
+I:Fca<VlZzW`o_j7e`2fiA3
+R0
+R1
+w1640944480
+8C:/Users/User/OneDrive/Desktop/Sample_examples/decodertomux/dectomux.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/decodertomux/dectomux.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1641182157.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/decodertomux/dectomux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/decodertomux/dectomux.v|
+!i113 1
+R3
+R4
+vdectomux_tb
+!s110 1641182162
+!i10b 1
+!s100 =ci;b6L3]B^RboLJM:6YW0
+I1:o51T98GZgzUn;__VU0e0
+R0
+R1
+w1640943743
+8C:/Users/User/OneDrive/Desktop/Sample_examples/decodertomux/dectomux_tb.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/decodertomux/dectomux_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1641182162.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/decodertomux/dectomux_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/decodertomux/dectomux_tb.v|
+!i113 1
+R3
+R4
