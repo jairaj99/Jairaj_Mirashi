@@ -1,0 +1,50 @@
+module dff_tb(); 
+reg load,clk,rst; 
+reg [3:0]d; 
+wire [3:0]q; 
+ 
+dff dut(d,load,rst,q,clk); 
+ 
+//clock intialize 
+initial  
+        begin  
+        clk = 1'b0; 
+        forever #10 clk =~ clk; 
+        end 
+ 
+// task to initialize the input  
+task initialize; 
+begin 
+d=0; 
+end 
+endtask 
+// task to provide inputs 
+task load_input(input [3:0]j,input k); 
+begin @(negedge clk) 
+load=k; 
+d=j; 
+end 
+endtask 
+ 
+ 
+// task to reset the flipflop at starting to make the values to be zero 
+task rst_ff; 
+        begin  
+           @(negedge clk) 
+             rst=1; 
+           @(negedge clk) 
+             rst=0; 
+        end 
+ endtask 
+ 
+//Inputs  
+initial  
+      begin 
+   initialize; 
+   rst_ff; 
+   load_input(4'b1100,1); 
+     #20; 
+load_input(4'b1000,1);
+#300 $finish;
+   end 
+endmodule

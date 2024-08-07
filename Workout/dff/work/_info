@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vdff
+Z0 !s110 1642524383
+!i10b 1
+!s100 Oj4zAPX3m4jA`14=b?J;@0
+I1RFZi1oK;ek]50]Xb5lo@2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/Workout/dff
+w1642519636
+8C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/Workout/dff/dff.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/Workout/dff/dff.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1642524383.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/Workout/dff/dff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/Workout/dff/dff.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vdff_tb
+R0
+!i10b 1
+!s100 g:4Eb0;4WN539W^OUMlL<3
+IaRB2dg;CIG^dSEH]hL8CN0
+R1
+R2
+w1642524316
+8C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/Workout/dff/dff_tb.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/Workout/dff/dff_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/Workout/dff/dff_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/Extra_work/Workout/dff/dff_tb.v|
+!i113 1
+R5
+R6

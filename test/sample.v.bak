@@ -1,0 +1,12 @@
+module sample(input clk,rst,load, input [3:0] data_in, output reg [3 : 0] count);
+
+always@(posedge clk)
+begin
+if(rst)
+count <= 4'b0000;
+else if(load)
+count <= data_in;
+else
+count <= count + 4'b0010;
+end
+endmodule
