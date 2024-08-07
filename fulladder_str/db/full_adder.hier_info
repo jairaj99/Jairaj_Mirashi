@@ -1,0 +1,14 @@
+|full_adder
+A => Sum.IN0
+A => Carry.IN0
+A => Carry.IN0
+B => Sum.IN1
+B => Carry.IN1
+B => Carry.IN0
+C => Sum.IN1
+C => Carry.IN1
+C => Carry.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Carry <= Carry.DB_MAX_OUTPUT_PORT_TYPE
+
+

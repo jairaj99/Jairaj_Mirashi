@@ -1,0 +1,101 @@
+Flow report for full_adder
+Tue Jan 04 17:06:48 2022
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------+
+; Flow Summary                                                        ;
++-----------------------+---------------------------------------------+
+; Flow Status           ; Successful - Tue Jan 04 17:06:48 2022       ;
+; Quartus Prime Version ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
+; Revision Name         ; full_adder                                  ;
+; Top-level Entity Name ; full_adder                                  ;
+; Family                ; MAX V                                       ;
+; Total logic elements  ; 2                                           ;
+; Total pins            ; 5                                           ;
+; Total virtual pins    ; 0                                           ;
+; UFM blocks            ; 0 / 1 ( 0 % )                               ;
++-----------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 01/04/2022 17:06:32 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; full_adder          ;
++-------------------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                    ;
++--------------------------+-------------------------------+---------------+-------------+------------+
+; Assignment Name          ; Value                         ; Default Value ; Entity Name ; Section Id ;
++--------------------------+-------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID    ; 1096880245418.164129619105396 ; --            ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY ; output_files                  ; --            ; --          ; --         ;
++--------------------------+-------------------------------+---------------+-------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:17     ; 1.0                     ; 4704 MB             ; 00:00:34                           ;
+; Total                ; 00:00:17     ; --                      ; --                  ; 00:00:34                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; LAPTOP-6PTOO47Q  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off full_adder -c full_adder
+
+
+
