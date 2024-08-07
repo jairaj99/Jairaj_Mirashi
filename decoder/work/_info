@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vdecoder2to4
+!s110 1640872418
+!i10b 1
+!s100 nz;nYLMAPVT5S4bOIMbI83
+I`ZX5PQBU[mJEao`M5G84j3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/User/OneDrive/Desktop/Sample_examples/decoder
+w1640872377
+8C:/Users/User/OneDrive/Desktop/Sample_examples/decoder/decoder2to4.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/decoder/decoder2to4.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1640872418.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/decoder/decoder2to4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/decoder/decoder2to4.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vdecoder2to4_tb
+!s110 1640872424
+!i10b 1
+!s100 YE?PTOU<TgJenI^Co>OLa1
+ILU`<o^F2k?fP6h@J=0G9Q2
+R0
+R1
+w1640871700
+Z5 8C:/Users/User/OneDrive/Desktop/Sample_examples/decoder/decoder2to4_tb.v
+Z6 FC:/Users/User/OneDrive/Desktop/Sample_examples/decoder/decoder2to4_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1640872423.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/decoder/decoder2to4_tb.v|
+Z7 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/decoder/decoder2to4_tb.v|
+!i113 1
+R3
+R4
+vdecoder4to1_tb
+!s110 1640840098
+!i10b 1
+!s100 _VaRGV;FobMVOLJfQbzk21
+Il3Ha;]Pbje@SCTJX2S@bz0
+R0
+R1
+w1640840092
+R5
+R6
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1640840098.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/decoder/decoder2to4_tb.v|
+R7
+!i113 1
+R3
+R4

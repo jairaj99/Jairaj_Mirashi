@@ -1,0 +1,28 @@
+module decoder2to4_tb();
+
+reg [1:0] S;
+wire [3:0] Y;
+integer i;
+
+decoder2to4 DUT(S, Y);
+
+initial 
+begin 
+S=1'b0;
+end
+
+initial
+begin
+for(i=0;i<4;i=i+1)
+begin
+S=i;
+#10;
+end
+end
+
+initial
+$monitor("Inputs S=%b, Output Y=%b", S, Y);
+initial
+#100 $finish;
+
+endmodule
