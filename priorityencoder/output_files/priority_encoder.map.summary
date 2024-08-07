@@ -1,0 +1,9 @@
+Analysis & Synthesis Status : Successful - Tue Jan 04 16:56:53 2022
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : priority_encoder
+Top-level Entity Name : priority_encoder
+Family : MAX V
+Total logic elements : 5
+Total pins : 11
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

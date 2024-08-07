@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vbencoder
+Z0 !s110 1641040783
+!i10b 1
+!s100 6X=biHK>UdF3BTdR9R<A;3
+IB3o?V2G;Y^HlHg=`h273F3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/User/OneDrive/Desktop/Sample_examples/priorityencoder
+w1640958862
+8C:/Users/User/OneDrive/Desktop/Sample_examples/priorityencoder/bencoder.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/priorityencoder/bencoder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1641040783.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/priorityencoder/bencoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/priorityencoder/bencoder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vprencoder
+R0
+!i10b 1
+!s100 C4aD6WQNWK4]7>9n:W2`=2
+INNblX=[mZjzdGUmU2o64P0
+R1
+R2
+w1640956635
+8C:/Users/User/OneDrive/Desktop/Sample_examples/priorityencoder/prencoder.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/priorityencoder/prencoder.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/priorityencoder/prencoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/priorityencoder/prencoder.v|
+!i113 1
+R5
+R6
+vpriority_encoder
+R0
+!i10b 1
+!s100 Vi=OaP8Vbzz`[Lb^DOZ_a0
+IBfYHhY7kN52;=:_d`znn22
+R1
+R2
+w1640958103
+8C:/Users/User/OneDrive/Desktop/Sample_examples/priorityencoder/priority_encoder.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/priorityencoder/priority_encoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/priorityencoder/priority_encoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/priorityencoder/priority_encoder.v|
+!i113 1
+R5
+R6
+vpriority_encoder_tb
+!s110 1641306803
+!i10b 1
+!s100 ?za3L[0jj[?agz1P;GnMA1
+IoZNzdWc:3`b?^OD6lP@3a1
+R1
+R2
+w1641040976
+8C:/Users/User/OneDrive/Desktop/Sample_examples/priorityencoder/priority_encoder_tb.v
+FC:/Users/User/OneDrive/Desktop/Sample_examples/priorityencoder/priority_encoder_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1641306802.000000
+!s107 C:/Users/User/OneDrive/Desktop/Sample_examples/priorityencoder/priority_encoder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/OneDrive/Desktop/Sample_examples/priorityencoder/priority_encoder_tb.v|
+!i113 1
+R5
+R6
